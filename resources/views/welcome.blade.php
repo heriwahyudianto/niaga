@@ -83,12 +83,38 @@
 @endsection
 @section('powerfullcontent')
   <h2 class="font-light center mt0">Powerfull dengan Limit PHP yang Lebih Besar</h2>
-  <div class="max-width-4 mx-auto clearfix">
-    <div class="sm-col sm-col-6">
-
+  <div class="max-width-4 mx-auto clearfix mb4 ">
+    <div class="sm-col sm-col-6 px2">
+      <ul class="list-reset">
+        <li class="border-d8 border-top border-right border-left flex">
+          <div class=""><p><i>sd</i></p></div>
+          <div class="flex-auto"><p class="center">max excecution time 300s</p></div>
+        </li>
+        <li class="border-d8 border-top border-right border-left flex bg-f7">
+          <div class=""><p><i>sd</i></p></div>
+          <div class="flex-auto"><p class="center">max excecution time 300s</p></div>
+        </li>
+        <li class="border-d8 border flex">
+          <div class=""><p><i>sd</i></p></div>
+          <div class="flex-auto"><p class="center">php memory limit 1024 MB</p></div>
+        </li>
+      </ul>
     </div>
-    <div class="sm-col sm-col-6">
-
+    <div class="sm-col sm-col-6 px2">
+      <ul class="list-reset">
+        <li class="border-d8 border-top border-right border-left flex">
+          <div class=""><p><i>sd</i></p></div>
+          <div class="flex-auto"><p class="center">post max size 128 MB</p></div>
+        </li>
+        <li class="border-d8 border-top border-right border-left flex bg-f7">
+          <div class=""><p><i>sd</i></p></div>
+          <div class="flex-auto"><p class="center">upload max filesize 128 MB</p></div>
+        </li>
+        <li class="border-d8 border flex">
+          <div class=""><p><i>sd</i></p></div>
+          <div class="flex-auto"><p class="center">max input vars 2500</p></div>
+        </li>
+      </ul>
     </div>
   </div>
   <h2 class="font-light center mt0">Semua Paket Hosting Sudah Termasuk</h2>
