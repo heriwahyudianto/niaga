@@ -14,8 +14,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="/css/crack.css" rel="stylesheet">
-    <title>@yield('title')</title>
+    <title>NiagaHoster</title>
     <link href="{{ mix('css/app.css') }}" type="text/css" rel="stylesheet" />
 </head>
 

@@ -40,3 +40,15 @@ a{ text-decoration: none;}
 .max-w-145{
     max-width: 145px;
 }
+.font-18{
+    font-size: 18px;
+}
+.font-23{
+    font-size: 23px;
+}
+.color-00b{
+    color:#00b348;
+}
+.border-white{
+    border-color: #FFFFFF;
+}

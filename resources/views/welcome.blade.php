@@ -7,9 +7,14 @@
       </div>
       <div class="sm-col sm-col-6 md-col-6 right-align">
         <ul class="list-reset my1">
-          <li class="inline-block mr1"><a href="tel:02745305505"  class="color-8e h5">0274-5305505</a> </li>
-          <li class="inline-block mr1"><a href="#"  class="color-8e h5">Live Chat</a> </li>
-          <li class="inline-block mr1"><a href="#"  class="color-8e h5">Member Area</a> </li>
+          <li class="inline-block mr1"><a href="tel:02745305505"  class="color-8e h5">
+            <i class="align-middle material-icons font-18">call</i> 0274-5305505</a>
+          </li>
+          <li class="inline-block mr1"><a href="#"  class="color-8e h5">
+            <i class="align-middle material-icons font-18">chat_bubble</i> 
+            Live Chat</a>
+          </li>
+          <li class="inline-block mr1"><a href="#"  class="color-8e h5"><i class="align-middle material-icons font-18">account_circle</i> Member Area</a> </li>
         </ul>
       </div>
     </div>
@@ -44,10 +49,10 @@
       <div class="sm-col xs-col-12 sm-col-6 md-col-6 ">      
         <h1 class="bold">PHP Hosting</h1>
         <h2 class="font-light">Cepat, handal, penuh dengan modul PHP yang anda butuhkan</h2>
-        <p>Solusi PHP untuk performa query yang lebih cepat</p>
-        <p>Konsumsi memori lebih rendah</p>
-        <p>Support PHP 5.3, PHP 5.4, PHP 5.6, PHP 7</p>
-        <p>Fitur enkripsi IonCube dan Zend Guard Loaders</p>
+        <p><i class="align-top material-icons font-23 color-00b">check_circle</i> Solusi PHP untuk performa query yang lebih cepat</p>
+        <p><i class="align-top material-icons font-23 color-00b">check_circle</i>Konsumsi memori lebih rendah</p>
+        <p><i class="align-top material-icons font-23 color-00b">check_circle</i>Support PHP 5.3, PHP 5.4, PHP 5.6, PHP 7</p>
+        <p><i class="align-top material-icons font-23 color-00b">check_circle</i>Fitur enkripsi IonCube dan Zend Guard Loaders</p>
       </div>
       <div class="sm-col xs-col-12 sm-col-6 md-col-6 right-align">
         <img src="/image/svg/illustration_banner_PHP hosting-01.svg" class="fit" />
@@ -87,15 +92,15 @@
     <div class="sm-col sm-col-6 px2">
       <ul class="list-reset">
         <li class="border-d8 border-top border-right border-left flex">
-          <div class=""><p><i>sd</i></p></div>
+          <div><p class="ml2"><i class="align-top material-icons font-23 color-00b">check_circle</i></p></div>
           <div class="flex-auto"><p class="center">max excecution time 300s</p></div>
         </li>
         <li class="border-d8 border-top border-right border-left flex bg-f7">
-          <div class=""><p><i>sd</i></p></div>
+          <div><p class="ml2"><i class="align-top material-icons font-23 color-00b">check_circle</i></p></div>
           <div class="flex-auto"><p class="center">max excecution time 300s</p></div>
         </li>
         <li class="border-d8 border flex">
-          <div class=""><p><i>sd</i></p></div>
+          <div><p class="ml2"><i class="align-top material-icons font-23 color-00b">check_circle</i></p></div>
           <div class="flex-auto"><p class="center">php memory limit 1024 MB</p></div>
         </li>
       </ul>
@@ -103,15 +108,15 @@
     <div class="sm-col sm-col-6 px2">
       <ul class="list-reset">
         <li class="border-d8 border-top border-right border-left flex">
-          <div class=""><p><i>sd</i></p></div>
+          <div><p class="ml2"><i class="align-top material-icons font-23 color-00b">check_circle</i></p></div>
           <div class="flex-auto"><p class="center">post max size 128 MB</p></div>
         </li>
         <li class="border-d8 border-top border-right border-left flex bg-f7">
-          <div class=""><p><i>sd</i></p></div>
+          <div><p class="ml2"><i class="align-top material-icons font-23 color-00b">check_circle</i></p></div>
           <div class="flex-auto"><p class="center">upload max filesize 128 MB</p></div>
         </li>
         <li class="border-d8 border flex">
-          <div class=""><p><i>sd</i></p></div>
+          <div><p class="ml2"><i class="align-top material-icons font-23 color-00b">check_circle</i></p></div>
           <div class="flex-auto"><p class="center">max input vars 2500</p></div>
         </li>
       </ul>
@@ -155,9 +160,10 @@
     <div class="sm-col xs-col-12 sm-col-6 md-col-6 pb4">
       <p>Tak perlu menggunakan dedicated server ataupun VPSyang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit Anda</p>
       <ul class="list-reset">
-        <li>Install Laravel 1 klik dengan Softaculous Installer.</li>
-        <li>Mendukung ekstensi PHP MCrypt, phar, mbstring, json, dan fileinfo.</li>
-        <li>Tersedia composer dan SSH untuk menginstall packages pilihan Anda.</li>
+        <li><i class="align-top material-icons font-23 color-00b">check_circle</i> 
+          Install Laravel <span class="bold">1 klik</span> dengan Softaculous Installer.</li>
+        <li><i class="align-top material-icons font-23 color-00b">check_circle</i> Mendukung ekstensi <span class="bold">PHP MCrypt, phar, mbstring, json,</span> dan <span class="bold">fileinfo.</span></li>
+        <li><i class="align-top material-icons font-23 color-00b">check_circle</i> Tersedia <span class="bold">composer</span> dan <span class="bold">SSH</span> untuk menginstall packages pilihan Anda.</li>
       </ul>
       <p class="h6">Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis</p>
       <div class="my2 pt3">
@@ -278,7 +284,18 @@
     </div>
   </div>
   <div class="bg-blue py4">
-    <p class="center m0 h1 color-white">Perlu <span class="bold">BANTUAN?</span> Hubungi Kami: <a href="tel:+622745305505" class="bold color-white">0274-5305505</a></p>
+    <div class="max-width-4 mx-auto clearfix px2"> 
+      <div class="sm-col sm-col-8">
+        <p class="color-white h2" h1="" color-white"="">Perlu <span class="bold">BANTUAN?</span> Hubungi Kami: 
+          <a href="tel:+622745305505" class="bold color-white">0274-5305505</a>
+        </p>
+      </div>
+      <div class="center sm-col sm-col-4">
+        <button class="bg-blue bold border-rad-40 border-white color-white my2 px3 py1">
+          <i class="align-middle font-23 material-icons">chat_bubble</i> Live Chat
+        </button>
+      </div>
+    </div>
   </div>
 @endsection
 @section('footer')
