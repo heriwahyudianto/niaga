@@ -1,0 +1,24 @@
+body{
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    color: #303030;
+}
+a{ text-decoration: none;}
+.bg-black {
+    background-color: #303030;
+}
+.color-white{
+    color: #FFFFFF;
+}
+.color-8e{
+    color: #8e8e8e;
+}
+.border-d8{
+    border-color: #d8d8d8;
+}
+.va-top {
+    vertical-align: top;
+}
+.font-light{
+    font-weight: lighter;
+}
