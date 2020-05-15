@@ -7,11 +7,23 @@ a{ text-decoration: none;}
 .bg-black {
     background-color: #303030;
 }
+.bg-f7{
+    background-color: #f7f7f7;
+}
+.bg-blue{
+    background-color: #00a2f3;
+}
+.bg-white {
+    background-color: #FFFFFF;
+}
 .color-white{
     color: #FFFFFF;
 }
 .color-8e{
     color: #8e8e8e;
+}
+.color-4c{
+    color: #4c4c4c;
 }
 .border-d8{
     border-color: #d8d8d8;
@@ -21,4 +33,10 @@ a{ text-decoration: none;}
 }
 .font-light{
     font-weight: lighter;
+}
+.border-rad-40{
+    border-radius: 40px;
+}
+.max-w-145{
+    max-width: 145px;
 }
