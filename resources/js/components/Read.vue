@@ -7,8 +7,8 @@
             <div class="border-bottom border-d8"><h4 class="bold my1">{{paket.nama}}</h4></div>
             <p><del>Rp {{paket.harga}}</del></p>
             <p class="border-bottom border-d8 pb1">Rp 
-                <span class="bold"><span class="h1 va-webkit">14</span>.900</span>/bln
-                {{ paket.promo }}
+                <span class="bold"><span class="h1 va-webkit">{{ paket.promo.toString().substring(0,2) }}</span>
+                .{{ paket.promo.toString().substring(2,paket.promo.toString().length) }}</span>/bln
             </p>
             <div class="border-bottom border-d8">
                 <p><span class="bold">{{paket.jmluser}}</span> Pengguna Terdaftar</p>

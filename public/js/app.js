@@ -20056,10 +20056,20 @@ var render = function() {
             _vm._v(" "),
             _c("p", { staticClass: "border-bottom border-d8 pb1" }, [
               _vm._v("Rp \n              "),
-              _vm._m(0, true),
-              _vm._v(
-                "/bln\n              " + _vm._s(paket.promo) + "\n          "
-              )
+              _c("span", { staticClass: "bold" }, [
+                _c("span", { staticClass: "h1 va-webkit" }, [
+                  _vm._v(_vm._s(paket.promo.toString().substring(0, 2)))
+                ]),
+                _vm._v(
+                  "\n              ." +
+                    _vm._s(
+                      paket.promo
+                        .toString()
+                        .substring(2, paket.promo.toString().length)
+                    )
+                )
+              ]),
+              _vm._v("/bln\n          ")
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "border-bottom border-d8" }, [
@@ -20073,7 +20083,7 @@ var render = function() {
             _vm._v(" "),
             _c("div", { domProps: { innerHTML: _vm._s(paket.ket) } }),
             _vm._v(" "),
-            _vm._m(1, true)
+            _vm._m(0, true)
           ]
         )
       }),
@@ -20082,15 +20092,6 @@ var render = function() {
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("span", { staticClass: "bold" }, [
-      _c("span", { staticClass: "h1 va-webkit" }, [_vm._v("14")]),
-      _vm._v(".900")
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
