@@ -28,6 +28,9 @@ a{ text-decoration: none;}
 .border-d8{
     border-color: #d8d8d8;
 }
+.border-f7{
+    border-color: #f7f7f7;
+}
 .va-top {
     vertical-align: top;
 }
@@ -54,4 +57,7 @@ a{ text-decoration: none;}
 }
 .menu{
     top: 46px;box-shadow: 0px 3px 0px 3px #f7f7f7;
+}
+.va-webkit{
+    vertical-align: -webkit-baseline-middle;
 }

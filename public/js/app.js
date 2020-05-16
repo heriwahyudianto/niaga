@@ -2042,26 +2042,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -20054,91 +20034,51 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("div", { staticClass: "clearfix" }, [
-      _c("div", { staticClass: "max-width-4 mx-auto p2" }, [
-        _c("div", { staticClass: "row" }, [
-          _vm._m(0),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "col-md-2" },
-            [
-              _c(
-                "router-link",
-                {
-                  staticClass: "btn btn-primary w-100",
-                  attrs: { to: "/create" }
-                },
-                [_vm._v("+ Tambah")]
+  return _c("div", { staticClass: "mt3" }, [
+    _c(
+      "div",
+      { staticClass: "max-width-4 mx-auto p2 clearfix" },
+      _vm._l(_vm.pakets, function(paket) {
+        return _c(
+          "div",
+          {
+            key: paket.id,
+            staticClass: "border border-d8 center md-col-3 sm-col sm-col-12"
+          },
+          [
+            _c("div", { staticClass: "border-bottom border-d8" }, [
+              _c("h4", { staticClass: "bold my1" }, [
+                _vm._v(_vm._s(paket.nama))
+              ])
+            ]),
+            _vm._v(" "),
+            _c("p", [_c("del", [_vm._v("Rp " + _vm._s(paket.harga))])]),
+            _vm._v(" "),
+            _c("p", { staticClass: "border-bottom border-d8 pb1" }, [
+              _vm._v("Rp \n              "),
+              _vm._m(0, true),
+              _vm._v(
+                "/bln\n              " + _vm._s(paket.promo) + "\n          "
               )
-            ],
-            1
-          )
-        ]),
-        _vm._v(" "),
-        _c("table", { staticClass: "table" }, [
-          _vm._m(1),
-          _vm._v(" "),
-          _c(
-            "tbody",
-            _vm._l(_vm.pakets, function(paket) {
-              return _c("tr", { key: paket.id }, [
-                _c("td", { staticStyle: { width: "40%" } }, [
-                  _vm._v(_vm._s(paket.nama))
-                ]),
-                _vm._v(" "),
-                _c("td", { staticStyle: { width: "40%" } }, [
-                  _vm._v(_vm._s(paket.harga))
-                ]),
-                _vm._v(" "),
-                _c("td", { staticStyle: { width: "40%" } }, [
-                  _vm._v(_vm._s(paket.promo))
-                ]),
-                _vm._v(" "),
-                _c("td", { staticStyle: { width: "40%" } }, [
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "border-bottom border-d8" }, [
+              _c("p", [
+                _c("span", { staticClass: "bold" }, [
                   _vm._v(_vm._s(paket.jmluser))
                 ]),
-                _vm._v(" "),
-                _c("td", { staticStyle: { width: "40%" } }, [
-                  _vm._v(_vm._s(paket.ket))
-                ]),
-                _vm._v(" "),
-                _c(
-                  "td",
-                  { staticStyle: { width: "20%" } },
-                  [
-                    _c(
-                      "router-link",
-                      {
-                        staticClass: "btn btn-warning",
-                        attrs: { to: "/detail/" + paket.id }
-                      },
-                      [_vm._v("Update")]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "button",
-                      {
-                        staticClass: "btn btn-danger",
-                        on: {
-                          click: function($event) {
-                            return _vm.deleteData(paket.id)
-                          }
-                        }
-                      },
-                      [_vm._v("Delete")]
-                    )
-                  ],
-                  1
-                )
+                _vm._v(" Pengguna Terdaftar")
               ])
-            }),
-            0
-          )
-        ])
-      ])
-    ])
+            ]),
+            _vm._v(" "),
+            _c("div", { domProps: { innerHTML: _vm._s(paket.ket) } }),
+            _vm._v(" "),
+            _vm._m(1, true)
+          ]
+        )
+      }),
+      0
+    )
   ])
 }
 var staticRenderFns = [
@@ -20146,28 +20086,24 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-10" }, [
-      _c("h4", [_vm._v("Paket")])
+    return _c("span", { staticClass: "bold" }, [
+      _c("span", { staticClass: "h1 va-webkit" }, [_vm._v("14")]),
+      _vm._v(".900")
     ])
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("thead", [
-      _c("tr", [
-        _c("th", { attrs: { scope: "col" } }, [_vm._v("Nama")]),
-        _vm._v(" "),
-        _c("th", { attrs: { scope: "col" } }, [_vm._v("Harga")]),
-        _vm._v(" "),
-        _c("th", { attrs: { scope: "col" } }, [_vm._v("Promo")]),
-        _vm._v(" "),
-        _c("th", { attrs: { scope: "col" } }, [_vm._v("Jml. User")]),
-        _vm._v(" "),
-        _c("th", { attrs: { scope: "col" } }, [_vm._v("Keterangan")]),
-        _vm._v(" "),
-        _c("th", { attrs: { scope: "col" } }, [_vm._v("Action")])
-      ])
+    return _c("div", { staticClass: "center my4" }, [
+      _c(
+        "a",
+        {
+          staticClass: "btn-white p2 border color-4c border-rad-40 bold",
+          attrs: { href: "#" }
+        },
+        [_vm._v("Selengkapnya")]
+      )
     ])
   }
 ]

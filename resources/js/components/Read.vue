@@ -1,43 +1,23 @@
 <template>
-  <div>
-    <div class="clearfix">
-      <div class="max-width-4 mx-auto p2">
-        <div class="row">
-          <div class="col-md-10">
-            <h4>Paket</h4>
-          </div>
-          <div class="col-md-2">
-            <!-- push router ke form membuat data -->
-            <router-link class="btn btn-primary w-100" to="/create">+ Tambah</router-link>
-          </div>
+  <div class="mt3">
+    <div class="max-width-4 mx-auto p2 clearfix">
+        <div class="border border-d8 center md-col-3 sm-col sm-col-12"
+            v-for="paket in pakets" :key="paket.id"
+        >
+            <div class="border-bottom border-d8"><h4 class="bold my1">{{paket.nama}}</h4></div>
+            <p><del>Rp {{paket.harga}}</del></p>
+            <p class="border-bottom border-d8 pb1">Rp 
+                <span class="bold"><span class="h1 va-webkit">14</span>.900</span>/bln
+                {{ paket.promo }}
+            </p>
+            <div class="border-bottom border-d8">
+                <p><span class="bold">{{paket.jmluser}}</span> Pengguna Terdaftar</p>
+            </div>
+            <div v-html="paket.ket"></div>
+            <div class="center my4">
+                <a class="btn-white p2 border color-4c border-rad-40 bold" href="#">Selengkapnya</a>
+            </div>
         </div>
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">Nama</th>
-              <th scope="col">Harga</th>
-              <th scope="col">Promo</th>
-              <th scope="col">Jml. User</th>
-              <th scope="col">Keterangan</th>
-              <th scope="col">Action</th>
-            </tr>
-          </thead>
-          <tbody>
-            <!-- menampilkan data ke table -->
-            <tr v-for="paket in pakets" :key="paket.id">
-              <td style="width:40%">{{paket.nama}}</td>
-              <td style="width:40%">{{paket.harga}}</td>
-              <td style="width:40%">{{paket.promo}}</td>
-              <td style="width:40%">{{paket.jmluser}}</td>
-              <td style="width:40%">{{paket.ket}}</td>
-              <td style="width:20%">
-                <router-link class="btn btn-warning" :to="'/detail/'+paket.id">Update</router-link>
-                <button class="btn btn-danger" v-on:click="deleteData(paket.id)">Delete</button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
     </div>
   </div>
 </template>

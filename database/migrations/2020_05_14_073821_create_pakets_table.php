@@ -19,7 +19,7 @@ class CreatePaketsTable extends Migration
             $table->integer('harga');
             $table->integer('promo')->nullable();
             $table->integer('jmluser');
-            $table->string('ket')->nullable();
+            $table->longText('ket')->nullable();
             $table->timestamps();
         });
     }
