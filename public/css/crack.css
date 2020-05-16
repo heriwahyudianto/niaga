@@ -31,6 +31,9 @@ a{ text-decoration: none;}
 .border-f7{
     border-color: #f7f7f7;
 }
+.border-008{
+    border-color: #008fee;
+}
 .va-top {
     vertical-align: top;
 }
@@ -60,4 +63,13 @@ a{ text-decoration: none;}
 }
 .va-webkit{
     vertical-align: -webkit-baseline-middle;
+}
+.bg-007{
+    background-color: #007fde;
+}
+.bg-008{
+    background-color: #008fee;
+}
+.color-008{
+    color: #008fee;
 }

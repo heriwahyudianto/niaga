@@ -109,7 +109,7 @@
   <h3 class="font-light center mt0">Diskon 40% + Domain dan SSL Gratis untuk Anda</h3>
 @endsection
 @section('powerfullcontent')
-  <h2 class="font-light center mt0">Powerfull dengan Limit PHP yang Lebih Besar</h2>
+  <h2 class="font-light center mt4">Powerfull dengan Limit PHP yang Lebih Besar</h2>
   <div class="max-width-4 mx-auto clearfix mb4 ">
     <div class="sm-col sm-col-6 px2">
       <ul class="list-reset">

@@ -2042,6 +2042,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -20039,53 +20058,124 @@ var render = function() {
       "div",
       { staticClass: "max-width-4 mx-auto p2 clearfix" },
       _vm._l(_vm.pakets, function(paket) {
-        return _c(
-          "div",
-          {
-            key: paket.id,
-            staticClass: "border border-d8 center md-col-3 sm-col sm-col-12"
-          },
-          [
-            _c("div", { staticClass: "border-bottom border-d8" }, [
-              _c("h4", { staticClass: "bold my1" }, [
-                _vm._v(_vm._s(paket.nama))
-              ])
-            ]),
-            _vm._v(" "),
-            _c("p", [_c("del", [_vm._v("Rp " + _vm._s(paket.harga))])]),
-            _vm._v(" "),
-            _c("p", { staticClass: "border-bottom border-d8 pb1" }, [
-              _vm._v("Rp \n              "),
-              _c("span", { staticClass: "bold" }, [
-                _c("span", { staticClass: "h1 va-webkit" }, [
-                  _vm._v(_vm._s(paket.promo.toString().substring(0, 2)))
-                ]),
-                _vm._v(
-                  "\n              ." +
-                    _vm._s(
-                      paket.promo
-                        .toString()
-                        .substring(2, paket.promo.toString().length)
-                    )
+        return _c("div", { key: paket.id }, [
+          paket.best === 0
+            ? _c("div", [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "sm-col sm-col-6 border border-d8 center md-col-3 "
+                  },
+                  [
+                    _c("div", { staticClass: "border-bottom border-d8" }, [
+                      _c("h4", { staticClass: "bold my1" }, [
+                        _vm._v(_vm._s(paket.nama))
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("p", [_c("del", [_vm._v("Rp " + _vm._s(paket.harga))])]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "border-bottom border-d8 pb1" }, [
+                      _vm._v("Rp \n                      "),
+                      _c("span", { staticClass: "bold" }, [
+                        _c("span", { staticClass: "h1 va-webkit" }, [
+                          _vm._v(_vm._s(paket.promo.toString().substring(0, 2)))
+                        ]),
+                        _vm._v(
+                          "\n                      ." +
+                            _vm._s(
+                              paket.promo
+                                .toString()
+                                .substring(2, paket.promo.toString().length)
+                            )
+                        )
+                      ]),
+                      _vm._v("/bln\n                  ")
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "border-bottom border-d8" }, [
+                      _c("p", [
+                        _c("span", { staticClass: "bold" }, [
+                          _vm._v(_vm._s(paket.jmluser))
+                        ]),
+                        _vm._v(" Pengguna Terdaftar")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { domProps: { innerHTML: _vm._s(paket.ket) } }),
+                    _vm._v(" "),
+                    _vm._m(0, true)
+                  ]
                 )
-              ]),
-              _vm._v("/bln\n          ")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "border-bottom border-d8" }, [
-              _c("p", [
-                _c("span", { staticClass: "bold" }, [
-                  _vm._v(_vm._s(paket.jmluser))
-                ]),
-                _vm._v(" Pengguna Terdaftar")
               ])
-            ]),
-            _vm._v(" "),
-            _c("div", { domProps: { innerHTML: _vm._s(paket.ket) } }),
-            _vm._v(" "),
-            _vm._m(0, true)
-          ]
-        )
+            : paket.best === 1
+            ? _c("div", [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "sm-col sm-col-6 border border-008 center md-col-3"
+                  },
+                  [
+                    _c(
+                      "div",
+                      { staticClass: "bg-008 border-bottom border-008 pt1" },
+                      [
+                        _c("h4", { staticClass: "bold color-white mb1 mt0" }, [
+                          _vm._v(_vm._s(paket.nama))
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "bg-008 color-white m0 pb1 pt2" }, [
+                      _c("del", [_vm._v("Rp " + _vm._s(paket.harga))])
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "bg-008 border-bottom border-008 color-white m0 pb1 py1"
+                      },
+                      [
+                        _vm._v("Rp \n                    "),
+                        _c("span", { staticClass: "bold" }, [
+                          _c("span", { staticClass: "h1 va-webkit" }, [
+                            _vm._v(
+                              _vm._s(paket.promo.toString().substring(0, 2))
+                            )
+                          ]),
+                          _vm._v(
+                            "\n                    ." +
+                              _vm._s(
+                                paket.promo
+                                  .toString()
+                                  .substring(2, paket.promo.toString().length)
+                              )
+                          )
+                        ]),
+                        _vm._v("/bln\n                  ")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "border-bottom border-008" }, [
+                      _c("p", { staticClass: "bg-007 color-white m0 py2" }, [
+                        _c("span", { staticClass: "bold" }, [
+                          _vm._v(_vm._s(paket.jmluser))
+                        ]),
+                        _vm._v(" Pengguna Terdaftar")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { domProps: { innerHTML: _vm._s(paket.ket) } }),
+                    _vm._v(" "),
+                    _vm._m(1, true)
+                  ]
+                )
+              ])
+            : _vm._e()
+        ])
       }),
       0
     )
@@ -20103,7 +20193,22 @@ var staticRenderFns = [
           staticClass: "btn-white p2 border color-4c border-rad-40 bold",
           attrs: { href: "#" }
         },
-        [_vm._v("Selengkapnya")]
+        [_vm._v("Pilih Sekarang")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "center my4" }, [
+      _c(
+        "a",
+        {
+          staticClass: "bg-008 bold border-rad-40 btn-white color-white p2",
+          attrs: { href: "#" }
+        },
+        [_vm._v("Pilih Sekarang")]
       )
     ])
   }

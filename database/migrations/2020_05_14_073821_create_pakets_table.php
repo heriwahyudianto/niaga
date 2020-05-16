@@ -20,6 +20,7 @@ class CreatePaketsTable extends Migration
             $table->integer('promo')->nullable();
             $table->integer('jmluser');
             $table->longText('ket')->nullable();
+            $table->boolean('best')->default(0);
             $table->timestamps();
         });
     }
