@@ -20,25 +20,47 @@
     </div>
   </div>
   <div class="border-bottom border-d8">
-    <div class="clearfix flex items-center max-width-4 mx-auto px2 py1">
+    <div class="flex items-center justify-between max-width-4 mx-auto px2 py1">
       <div class="sm-col md-col-3">
         <a href="#" class="color-8e h6">
-          <img class="fit" src="/image/niagahoster.jpg" />
+          <img class="fit" src="/image/niagahoster.jpg">
         </a> 
       </div>
       <div class="sm-col md-col-9 right-align xs-hide sm-hide">
         <ul class="list-reset my1">
-          <li class="inline-block mr1"><a href="#"  class="color-8e">Hosting</a> </li>
-          <li class="inline-block mr1"><a href="#"  class="color-8e">Domain</a> </li>
-          <li class="inline-block mr1"><a href="#"  class="color-8e">Server</a> </li>
-          <li class="inline-block mr1"><a href="#"  class="color-8e">Website</a> </li>
-          <li class="inline-block mr1"><a href="#"  class="color-8e">Afiliasi</a> </li>
-          <li class="inline-block mr1"><a href="#"  class="color-8e">Promo</a> </li>
-          <li class="inline-block mr1"><a href="#"  class="color-8e">Pembayaran</a> </li>
-          <li class="inline-block mr1"><a href="#"  class="color-8e">Review</a> </li>
-          <li class="inline-block mr1"><a href="#"  class="color-8e">Kontak</a> </li>
-          <li class="inline-block mr1"><a href="#"  class="color-8e">Blog</a> </li>
+          <li class="inline-block mr1"><a href="#" class="color-8e">Hosting</a> </li>
+          <li class="inline-block mr1"><a href="#" class="color-8e">Domain</a> </li>
+          <li class="inline-block mr1"><a href="#" class="color-8e">Server</a> </li>
+          <li class="inline-block mr1"><a href="#" class="color-8e">Website</a> </li>
+          <li class="inline-block mr1"><a href="#" class="color-8e">Afiliasi</a> </li>
+          <li class="inline-block mr1"><a href="#" class="color-8e">Promo</a> </li>
+          <li class="inline-block mr1"><a href="#" class="color-8e">Pembayaran</a> </li>
+          <li class="inline-block mr1"><a href="#" class="color-8e">Review</a> </li>
+          <li class="inline-block mr1"><a href="#" class="color-8e">Kontak</a> </li>
+          <li class="inline-block mr1"><a href="#" class="color-8e">Blog</a> </li>
         </ul>
+      </div>
+      <div class="lg-hide md-hide right-align">
+        <button onclick="menu()" class="right-align"><i class="align-middle material-icons font-18">menu</i>
+        </button>
+        <div id="menuCnt" class="absolute bg-white border border-d8 border-f7 p1 right-0 rounded menu" style="display: none;">
+          <div>
+            <button onclick="menu()" class="right-align"><i class="align-middle material-icons font-18">close</i>
+            </button>
+          </div>
+          <ul class="list-reset mt1">
+          <li class="left-align"><a href="#" class="color-8e">Hosting</a> </li>
+          <li class="left-align"><a href="#" class="color-8e">Domain</a> </li>
+          <li class="left-align"><a href="#" class="color-8e">Server</a> </li>
+          <li class="left-align"><a href="#" class="color-8e">Website</a> </li>
+          <li class="left-align"><a href="#" class="color-8e">Afiliasi</a> </li>
+          <li class="left-align"><a href="#" class="color-8e">Promo</a> </li>
+          <li class="left-align"><a href="#" class="color-8e">Pembayaran</a> </li>
+          <li class="left-align"><a href="#" class="color-8e">Review</a> </li>
+          <li class="left-align"><a href="#" class="color-8e">Kontak</a> </li>
+          <li class="left-align"><a href="#" class="color-8e">Blog</a> </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

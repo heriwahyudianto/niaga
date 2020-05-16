@@ -28,6 +28,19 @@
     @yield('powerfullcontent')
     @yield('footer')
     <script src="{{ mix('js/app.js') }}" type="text/javascript" defer></script>
+    <script>
+        let menus = false;
+        function menu() {
+            if(menus) {
+                document.getElementById('menuCnt').style.display = "none"
+                menus = false
+                return menus
+            }
+            document.getElementById('menuCnt').style.display = "block"
+            menus = true
+            return menus
+        }
+    </script>
 </body>
 
 </html>
