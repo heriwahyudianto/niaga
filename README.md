@@ -15,4 +15,7 @@ The page speed result in here [https://github.com/heriwahyudianto/niaga/blob/fea
 
 I'm sorry I don't have hosting to live the task.
 
+# Vue 
+To get Vue run, please execute `npm run watch` on another terminal
+
 Thank you
