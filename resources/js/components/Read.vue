@@ -14,13 +14,17 @@
                         <p><span class="bold">{{paket.jmluser}}</span> Pengguna Terdaftar</p>
                     </div>
                     <div v-html="paket.ket"></div>
-                    <div class="center my4">
+                    <div v-if="paket.diskon === 0" class="center my4">
                         <a class="btn-white p2 border color-4c border-rad-40 bold" href="#">Pilih Sekarang</a>
+                    </div>
+                    <div v-else-if="paket.diskon > 0" class="center my4">
+                        <a class="btn-white p2 border color-4c border-rad-40 bold" href="#">Diskon {{paket.diskon}}%</a>
                     </div>
                 </div> 
             </div>
             <div v-else-if="paket.best === 1">
-                <div class="sm-col sm-col-6 border border-008 center md-col-3">
+                <div class="sm-col sm-col-6 border border-008 center md-col-3 relative">
+                    <img src="/image/best.png" class="absolute best" />
                     <div class="bg-008 border-bottom border-008 pt1"><h4 class="bold color-white mb1 mt0">{{paket.nama}}</h4></div>
                     <p class="bg-008 color-white m0 pb1 pt2"><del>Rp {{paket.harga}}</del></p>
                     <p class="bg-008 border-bottom border-008 color-white m0 pb1 py1">Rp 
@@ -31,8 +35,11 @@
                         <p class="bg-007 color-white m0 py2"><span class="bold">{{paket.jmluser}}</span> Pengguna Terdaftar</p>
                     </div>
                     <div v-html="paket.ket"></div>
-                    <div class="center my4">
+                    <div v-if="paket.diskon === 0" class="center my4">
                         <a href="#" class="bg-008 bold border-rad-40 btn-white color-white p2">Pilih Sekarang</a>
+                    </div>
+                    <div v-else-if="paket.diskon > 0" class="center my4">
+                        <a href="#" class="bg-008 bold border-rad-40 btn-white color-white p2">Diskon {{paket.diskon}}%</a>
                     </div>
                 </div>
             </div>

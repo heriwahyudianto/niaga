@@ -2061,6 +2061,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -20105,7 +20112,31 @@ var render = function() {
                     _vm._v(" "),
                     _c("div", { domProps: { innerHTML: _vm._s(paket.ket) } }),
                     _vm._v(" "),
-                    _vm._m(0, true)
+                    paket.diskon === 0
+                      ? _c("div", { staticClass: "center my4" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass:
+                                "btn-white p2 border color-4c border-rad-40 bold",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Pilih Sekarang")]
+                          )
+                        ])
+                      : paket.diskon > 0
+                      ? _c("div", { staticClass: "center my4" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass:
+                                "btn-white p2 border color-4c border-rad-40 bold",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Diskon " + _vm._s(paket.diskon) + "%")]
+                          )
+                        ])
+                      : _vm._e()
                   ]
                 )
               ])
@@ -20115,9 +20146,14 @@ var render = function() {
                   "div",
                   {
                     staticClass:
-                      "sm-col sm-col-6 border border-008 center md-col-3"
+                      "sm-col sm-col-6 border border-008 center md-col-3 relative"
                   },
                   [
+                    _c("img", {
+                      staticClass: "absolute best",
+                      attrs: { src: "/image/best.png" }
+                    }),
+                    _vm._v(" "),
                     _c(
                       "div",
                       { staticClass: "bg-008 border-bottom border-008 pt1" },
@@ -20170,7 +20206,31 @@ var render = function() {
                     _vm._v(" "),
                     _c("div", { domProps: { innerHTML: _vm._s(paket.ket) } }),
                     _vm._v(" "),
-                    _vm._m(1, true)
+                    paket.diskon === 0
+                      ? _c("div", { staticClass: "center my4" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass:
+                                "bg-008 bold border-rad-40 btn-white color-white p2",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Pilih Sekarang")]
+                          )
+                        ])
+                      : paket.diskon > 0
+                      ? _c("div", { staticClass: "center my4" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass:
+                                "bg-008 bold border-rad-40 btn-white color-white p2",
+                              attrs: { href: "#" }
+                            },
+                            [_vm._v("Diskon " + _vm._s(paket.diskon) + "%")]
+                          )
+                        ])
+                      : _vm._e()
                   ]
                 )
               ])
@@ -20181,38 +20241,7 @@ var render = function() {
     )
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "center my4" }, [
-      _c(
-        "a",
-        {
-          staticClass: "btn-white p2 border color-4c border-rad-40 bold",
-          attrs: { href: "#" }
-        },
-        [_vm._v("Pilih Sekarang")]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "center my4" }, [
-      _c(
-        "a",
-        {
-          staticClass: "bg-008 bold border-rad-40 btn-white color-white p2",
-          attrs: { href: "#" }
-        },
-        [_vm._v("Pilih Sekarang")]
-      )
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
